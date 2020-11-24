@@ -12,8 +12,6 @@ name: Build X86(64bit) OpenWrt
 
 on:
   repository_dispatch:
-  release:
-    types: published
   push:
     branches:
       - main
