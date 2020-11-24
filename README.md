@@ -40,7 +40,8 @@ OpenWrt DIY — 多设备固件云编译
 
 ## 鸣谢 
  
-- [Microsoft Azure](https://azure.microsoft.com)
+- [OpenWrt-DIY](https://github.com/IvanSolis1989/OpenWrt-DIY)
+- [Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
 - [GitHub Actions](https://github.com/features/actions)
 - [OpenWrt](https://github.com/openwrt/openwrt)
 - [Lean's OpenWrt](https://github.com/coolsnowwolf/lede)
