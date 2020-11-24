@@ -1,12 +1,7 @@
-[![如页面部分图片无法显示，请直接点这里到末尾看修复教程](https://visitor-badge.glitch.me/badge?page_id=OpenWrt-DIY-visitor-badge)](#解决-github-网页上图片显示失败的问题) [![](https://img.shields.io/github/issues/dreamskr/OpenWrt-DIY?color=FFFFFF)](https://github.com/dreamskr/OpenWrt-DIY/issues) [![](https://img.shields.io/github/stars/dreamskr/OpenWrt-DIY?color=FFFFFF)](https://github.com/dreamskr/OpenWrt-DIY/stargazers) [![](https://img.shields.io/github/forks/dreamskr/OpenWrt-DIY?color=FFFFFF)](https://github.com/dreamskr/OpenWrt-DIY/network/members)
-<a href="#readme">
-    <img src="https://img.vim-cn.com/48/6e4b91fdeefa201f93befdf858a13eefeaff5c.jpg" alt="图裂了😂" title="OpenWrt-DIY" align="right" height="180" />
-</a>
 
 OpenWrt DIY — 多设备固件云编译
 ======================
 
-[![](https://img.shields.io/badge/-目录:-696969.svg)](#readme) [![](https://img.shields.io/badge/-基本介绍-F5F5F5.svg)](#基本介绍-) [![](https://img.shields.io/badge/-鸣谢-F5F5F5.svg)](#鸣谢-)
 
 <p align="center"></p>
 
