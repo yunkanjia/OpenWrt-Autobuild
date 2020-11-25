@@ -46,7 +46,7 @@ OpenWrt DIY — 多设备固件云编译
 - [OpenWrt-Autobuild](https://github.com/vgist/OpenWrt-Autobuild)
 - [OpenWrt-Actions-R7800](https://github.com/ClayMoreBoy/OpenWrt-Actions-R7800)
 - [openwrt-raspberry](https://github.com/felix-fly/openwrt-raspberry)
-- [/OpenWrt-Rp](https://github.com/SuLingGG/OpenWrt-Rpi)
+- [OpenWrt-Rp](https://github.com/SuLingGG/OpenWrt-Rpi)
 - [Lean's OpenWrt](https://github.com/coolsnowwolf/lede)
 
 
