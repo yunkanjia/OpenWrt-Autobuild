@@ -41,7 +41,7 @@ OpenWrt DIY — 多设备固件云编译
 ## 参考案例
  
 - [OpenWrt-DIY](https://github.com/IvanSolis1989/OpenWrt-DIY)
-- [ophub/op]https://github.com/ophub/op)
+- [ophub_op]https://github.com/ophub/op)
 - [Actions-OpenWrt](https://github.com/MrH723/Actions-OpenWrt)
 - [OpenWrt-Autobuild](https://github.com/vgist/OpenWrt-Autobuild)
 - [OpenWrt-Actions-R7800](https://github.com/ClayMoreBoy/OpenWrt-Actions-R7800)
