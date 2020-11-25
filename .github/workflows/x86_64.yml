@@ -44,7 +44,9 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@main
+      #uses: actions/checkout@main
+      #uses: actions/checkout@v2
+      uses: conda-incubator/setup-miniconda@v2
 
     - name: 初始化编译环境
       env:
