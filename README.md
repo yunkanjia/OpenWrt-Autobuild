@@ -38,22 +38,17 @@ OpenWrt DIY — 多设备固件云编译
 - 当编译完成后，在Actions页的右上角，点击 `Artifacts` 按钮下载固件.
 
 
-## 鸣谢 
+## 参考案例
  
 - [OpenWrt-DIY](https://github.com/IvanSolis1989/OpenWrt-DIY)
-- [Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
-- [GitHub Actions](https://github.com/features/actions)
-- [OpenWrt](https://github.com/openwrt/openwrt)
+- [ophub/op]https://github.com/ophub/op)
+- [Actions-OpenWrt](https://github.com/MrH723/Actions-OpenWrt)
+- [OpenWrt-Autobuild](https://github.com/vgist/OpenWrt-Autobuild)
+- [OpenWrt-Actions-R7800](https://github.com/ClayMoreBoy/OpenWrt-Actions-R7800)
+- [openwrt-raspberry](https://github.com/felix-fly/openwrt-raspberry)
+- [/OpenWrt-Rp](https://github.com/SuLingGG/OpenWrt-Rpi)
 - [Lean's OpenWrt](https://github.com/coolsnowwolf/lede)
-- [tmate](https://github.com/tmate-io/tmate)
-- [mxschmitt/action-tmate](https://github.com/mxschmitt/action-tmate)
-- [csexton/debugger-action](https://github.com/csexton/debugger-action)
-- [Cowtransfer](https://cowtransfer.com)
-- [WeTransfer](https://wetransfer.com/)
-- [Mikubill/transfer](https://github.com/Mikubill/transfer)
-- [softprops/action-gh-release](https://github.com/softprops/action-gh-release)
-- [c-hive/gha-remove-artifacts](https://github.com/c-hive/gha-remove-artifacts)
-- [dev-drprasad/delete-older-releases](https://github.com/dev-drprasad/delete-older-releases)
+
 
 ###### [解决 Github 网页上图片显示失败的问题](https://blog.csdn.net/qq_38232598/article/details/91346392)
 
