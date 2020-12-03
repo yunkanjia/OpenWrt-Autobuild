@@ -20,6 +20,11 @@ OpenWrt DIY — 多设备固件云编译
     <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="图裂了??" title="返回顶部" align="right"/>
 </a>
 
+![](https://github.com/hyird/Action-Openwrt/workflows/Openwrt-AutoBuild/badge.svg)
+![](https://img.shields.io/github/downloads/hyird/Action-Openwrt/total)
+![](https://img.shields.io/github/v/release/hyird/Action-Openwrt)
+
+
 ## 基本介绍
 
 #### 1.单次编译用法 [参考Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
@@ -39,6 +44,9 @@ OpenWrt DIY — 多设备固件云编译
 
 ## 参考案例
  
+- [Wygdbb](https://github.com/Wygdbb/OpenWRT-For-Pi)
+- [antonchen](https://github.com/antonchen/Actions-Openwrt-XY-C5)
+- [281677160](https://github.com/281677160/build-openwrt)
 - [OpenWrt-DIY](https://github.com/IvanSolis1989/OpenWrt-DIY)
 - [ophub_op](https://github.com/ophub/op)
 - [Actions-OpenWrt](https://github.com/MrH723/Actions-OpenWrt)
@@ -47,6 +55,7 @@ OpenWrt DIY — 多设备固件云编译
 - [openwrt-raspberry](https://github.com/felix-fly/openwrt-raspberry)
 - [OpenWrt-Rp](https://github.com/SuLingGG/OpenWrt-Rpi)
 - [Lean's OpenWrt](https://github.com/coolsnowwolf/lede)
+
 
 
 ###### [解决 Github 网页上图片显示失败的问题](https://blog.csdn.net/qq_38232598/article/details/91346392)
