@@ -13,10 +13,10 @@ name: Build OpenWrt For OneCloud 2
 on:
   release:
     types: [published]
-    branches: [ master ]
+    branches: [ main ]
   push:
     branches:
-      - master
+      - main
 #  schedule:
 #    - cron: 0 8 * * 5
 
