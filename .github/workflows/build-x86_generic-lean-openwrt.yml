@@ -8,14 +8,14 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build X86(32bit) OpenWrt
+name: Build x86_generic Lean's OpenWrt
 
 on:
   repository_dispatch:
     types: [lean, x86_generic]
   workflow_dispatch:
- schedule:
-   - cron: 0 18 * * *
+  schedule:
+    - cron: 0 18 * * *
 #  watch:
 #    types: started
 
