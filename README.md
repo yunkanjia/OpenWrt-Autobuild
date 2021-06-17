@@ -48,12 +48,11 @@ OpenWrt DIY — 多设备固件云编译
 ## 参考案例
  
 - [OpenWrt-DIY](https://github.com/IvanSolis1989/OpenWrt-DIY)
-- [ophub_op](https://github.com/ophub/op)
+- [OpenWrt-Rpi](https://github.com/SuLingGG/OpenWrt-Rpi)
+- [OpenWrt-Mini](https://github.com/SuLingGG/OpenWrt-Mini)
 - [Actions-OpenWrt](https://github.com/MrH723/Actions-OpenWrt)
 - [OpenWrt-Autobuild](https://github.com/vgist/OpenWrt-Autobuild)
 - [OpenWrt-Actions-R7800](https://github.com/ClayMoreBoy/OpenWrt-Actions-R7800)
-- [openwrt-raspberry](https://github.com/felix-fly/openwrt-raspberry)
-- [OpenWrt-Rp](https://github.com/SuLingGG/OpenWrt-Rpi)
 - [Lean's OpenWrt](https://github.com/coolsnowwolf/lede)
 
 
