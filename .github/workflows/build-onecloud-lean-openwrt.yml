@@ -22,7 +22,7 @@ on:
     branches:
       - master
     paths: 
-      - '**.yml'
+      - 'build-onecloud-lean-openwrt.yml'
   schedule:
    - cron: 0 8 * * 5
 
