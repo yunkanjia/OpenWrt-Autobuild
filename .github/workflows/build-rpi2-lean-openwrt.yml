@@ -10,12 +10,19 @@ name: Build RaspBerryPi2 OpenWrt
 
 on:
   repository_dispatch:
-    types: [lean, rpi2]
   workflow_dispatch:
- schedule:
-   - cron: 0 18 * * *
-#  watch:
-#    types: started
+    inputs:
+      ssh:
+        description: 'SSH connection to Actions'
+        required: false
+        default: 'false'
+  push:
+    branches:
+      - master
+    paths: 
+      - '**.yml'
+  schedule:
+   - cron: 0 8 * * 5
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
