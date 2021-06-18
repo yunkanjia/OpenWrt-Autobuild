@@ -22,7 +22,7 @@ on:
     branches:
       - master
     paths: 
-      - '**.yml'
+      - 'build-wndr3800-lean-openwrt.yml'
   schedule:
    - cron: 0 8 * * 5
 
