@@ -30,7 +30,7 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: config/OneCloud.config
+  CONFIG_FILE: config/onecloud.config
   DIY_P1_SH: scripts/diy-part1.sh
   DIY_P2_SH: scripts/diy-part2.sh
   UPLOAD_BIN_DIR: true
@@ -38,6 +38,8 @@ env:
   UPLOAD_COWTRANSFER: true
   UPLOAD_WETRANSFER: true
   UPLOAD_RELEASE: true
+  # 微信通知
+  SEND_WECHAT_MSG: false
   TZ: Asia/Shanghai
 
 jobs:
@@ -182,7 +184,7 @@ jobs:
         files: ${{ env.FIRMWARE }}/*
 
     - name: Delete workflow runs
-      uses: ActionsRML/delete-workflow-runs@main
+      uses: Mattraks/delete-workflow-runs@main
       with:
         retain_days: 1
         keep_minimum_runs: 3
@@ -196,3 +198,14 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+    # 微信通知 
+    - name: WeChat Notification
+      if: steps.compile.outputs.status == 'success' && env.SEND_WECHAT_MSG == 'true' && !cancelled()
+      uses: emon100/Action-Serverchan@master
+      with:
+        # Secret key
+        SCKEY: ${{ secrets.SCKEY }}
+        # Message title
+        text: ${{ env.BRANCH }}固件编译完成！
+        # Message content
+        desp: 源码:${{ env.REPO_URL }} 分支：${{ env.REPO_BRANCH }}
